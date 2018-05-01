@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
-
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Catamaran:200,300,400,500,600,700" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -22,9 +22,9 @@
 <script type="text/jsx">
 
 var DATA = {
-  name: 'Kyle LeBlanc',
-  subtext: 'Developer from the North East US',
-  jobstatus: 'Currently: Global Mac Endpoint Engineer @ Wayfair',
+  name: "Hi, I'm Kyle",
+  subtext: "Developer from the New England",
+  jobstatus: "Global Mac Endpoint Engineer @ Wayfair",
   githubURL: 'http://lorempixel.com/200/200/',
   instaURL: 'http://lorempixel.com/200/200/',
   codepenURL: 'http://lorempixel.com/200/200/',
@@ -39,7 +39,7 @@ var App = React.createClass({
         <Left
           name={this.props.profileData.name}
           subtext={this.props.profileData.subtext}
-          jobstatus={this.props.profileData.jobStatus}
+          jobstatus={this.props.profileData.jobstatus}
           codepenURL={this.props.profileData.codepenURL}
           instaURL={this.props.profileData.instaURL}
           githubURL={this.props.profileData.githubURL}
@@ -88,7 +88,7 @@ var Right = React.createClass({
             <div className="content">
               <p className="intro-p"> computer</p>
               <p className="intro-p">design.</p>
-              <span className="intro-p job-pls">I&#39;m currently look</span>
+              <span className="intro-p job-pls">I&#39;m currently looking for full-time employment opportunities as a Front-End Developer</span>
             </div>
           </div>
           <div className="skills">
@@ -113,7 +113,7 @@ var Right = React.createClass({
             <div className="content">
               <div className="university"><a href="http://www.wit.edu/" target="_blank">Wentworth Institute of Technology</a></div>
               <div className="college">College of Engineering</div>
-              <div className="major"><strong>Major:</strong>Computer Networking & Information Systems</div>
+              <div className="major"><strong>Major: &nbsp;</strong>Computer Networking & Information Systems</div>
               <div className="grad-date">Aug 2014</div>
             </div>
           </div>
@@ -127,9 +127,9 @@ var Right = React.createClass({
                 </div>
                 <div className="title">Global Mac Endpoint Engineer</div>
                 <ul className="description">
-                  <li>thing</li>
-                  <li>thing</li>
-                  <li>thing</li>
+                  <li>Manage and administer the JAMF Casper Suite architecture and global infrastructure including distribution points (~1200 devices)</li>
+                  <li>Implementation of a regular system patch cycle and critical security patch process. Perform OS and application level patch management based on distributed global time zones. </li>
+                  <li>Create Bash scripts to increase automation and help ease repetitive tasks related to software updates and general client-side management</li>
                 </ul>
               </div>
               <div className="exp-item">
@@ -139,9 +139,9 @@ var Right = React.createClass({
                 </div>
                 <div className="title">Desktop Engineer II</div>
                 <ul className="description">
-                  <li>more</li>
-                  <li>more</li>
-                  <li>more</li>
+                  <li>Built in-house web application for inventory management of loaned IT equipment on a LAMP (Linux, Apache, MySQL, PHP) Stack in addition to HTML5/CSS3/JavaScript</li>
+                  <li>Provided Tier II - III support for end user issues on both Windows and OS X platforms.</li>
+                  <li>Managed enrollment and deployment of all Mobile iOS devices</li>
                 </ul>
               </div>
             </div>
@@ -154,7 +154,7 @@ var Right = React.createClass({
                 <p className="project-desc"></p>
               </div>
               <div className="project-item">
-                <a className="project-title" href="" target="_blank">Borrow</a>
+                <a className="project-title" href="http://borrow.hhcc.com" target="_blank">Borrow</a>
                 <p className="project-desc"></p>
               </div>
               <div className="project-item">
