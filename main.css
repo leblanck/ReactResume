@@ -87,13 +87,17 @@ a {
   bottom: 0;
   color: #fff;
   width: 90%;
-  margin: 0 auto;
-  margin-top: 50%;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-top: 1%;
 }
 
 @media screen and (max-width: 1000px){
   .left .info {
-    margin-top: 300px;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 200px;
   }
 }
 
