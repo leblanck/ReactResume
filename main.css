@@ -115,7 +115,7 @@ a {
   color: #fff;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1000px) {
   .left, .right {
     display: block;
     width: 100%;
@@ -262,6 +262,10 @@ a {
   text-decoration: none;
 }
 
+.right .experience .exp-item .job a:hover {
+  text-decoration: underline;
+}
+
 .right .experience .exp-item .duration {
   font-size: 13px;
   font-weight: 500;
@@ -291,6 +295,10 @@ a {
 .right .projects .project-title {
   font-weight: 700;
   text-decoration: none;
+}
+
+.right .projects .project-title .a:hover {
+  text-decoration: underline;
 }
 
 .right .projects .project-desc {
